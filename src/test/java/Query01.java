@@ -40,5 +40,10 @@ public class Query01 {
 
         }
 
+        // 6. Adim; KAPAT
+        con.close();
+        st.close();
+        veri.close();
+
     }
 }
