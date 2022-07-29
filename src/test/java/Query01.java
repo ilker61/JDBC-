@@ -26,7 +26,7 @@ public class Query01 {
         // 5. adim; Sonuclari al
 
         while (veri.next()){
-            // 1. yol
+            // 1. yol= en goleyi
             // System.out.println(veri.getInt(1) + veri.getString(2) +
                     // veri.getString(3) + veri.getString(4) );
 
