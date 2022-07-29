@@ -41,11 +41,25 @@ public class Query05VeriGonderme {
         // System.out.println("2 stun eklendi");
 
 
-        // isciler tablosundaki sehir stun ismini ulkeler olaraktana degistir
+        // SORU; isciler tablosundaki sehir stun ismini ulkeler olaraktana degistir
 
-        st.execute("alter table isciler rename column sehir to ulke");
+        // st.execute("alter table isciler rename column sehir to ulke");
 
-        System.out.println("Stun ismi degistirildi");
+        // System.out.println("Stun ismi degistirildi");
+
+
+        // SORU; Tablonuu isimini employee olarak degistirin
+
+        // st.execute("alter table isciler rename to empleyee");
+
+        // System.out.println("Tablo ismi degistirildi");
+
+
+        // SORU; Ulke stunun data durunu char(30) yapin
+
+        st.execute("alter table empleyee modify ulke char(30)");
+
+        System.out.println("Ulke stununun data turu degistirildi");
 
     }
 }
