@@ -37,6 +37,6 @@ public class Query02 {
         con.close();
         st.close();
         veri.close();
-
+        veri2.close();
     }
 }
