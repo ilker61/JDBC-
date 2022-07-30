@@ -3,11 +3,9 @@ import java.sql.*;
 public class Query07 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
-
         Class.forName("com.mysql.jdbc.Driver");
 
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimeZone=UTC","root","1234");
-
 
         // STATEMENT, PREPAREDSTATEMENT FARKI
 

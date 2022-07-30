@@ -33,8 +33,6 @@ public class Query06 {
         }
         System.out.println(count + " data eklendi");
 
-
-
         // 2.yol
 
         String [] veri2={"INSERT INTO bolumler VALUES (81, 'YEMEKHANE', 'ISTANBUL')",
@@ -52,7 +50,6 @@ public class Query06 {
         System.out.println("Veriler database ye eklendi");
 
         */
-
 
         // Soru; Bolumler tablosuna birden fazla kayit ekleyelim.
 

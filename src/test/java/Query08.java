@@ -49,7 +49,5 @@ public class Query08 {
         con.close();
         st.close();
         tablo.close();
-
-
     }
 }
